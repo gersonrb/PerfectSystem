@@ -1,0 +1,18 @@
+body{
+    background: rgb(185, 225, 252);
+}
+footer {
+    background-color: rgb(129, 173, 231);
+    position: absolute;
+    bottom: 0;
+    width: 15%;
+    height: 5px;
+    color: rgb(20, 20, 20);
+  }
+  h1{
+      color: blue;
+  }
+
+  h3{
+      color: crimson;
+  }

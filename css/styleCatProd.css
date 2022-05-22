@@ -1,0 +1,15 @@
+body{
+    background: rgb(204, 221, 223);
+}
+
+footer {
+    background-color: rgb(221, 231, 244);
+    position: absolute;
+    bottom: 0;
+    width: 15%;
+    height: 5px;
+    color: rgb(20, 20, 20);
+  }
+  h2{
+      color: rgb(50, 92, 245);
+  }

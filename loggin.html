@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="css/styleAccesoUsuario.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+
+  
+
+  <nav>
+    <ul>
+    
+      <DIV align="right">
+        <h2 align="center">Menu </h2>
+      <a href="index.html">Negocio</a></li>
+      <a href="CatProductos.html">Catalogo de productos</a></li>
+      <a href="SolicitudCotizacion.PHP">Solicitud de cotizacion</a></li>
+      <a href="contacto.html">Contacto</a></li>
+    
+      
+    </ul>
+  </nav>
+  </header>
+  </body>
+  </DIV>
+  
+</head>
+<body>
+</head>
+<body>
+<div class="caja1">
+<form method="post" action="login.php">
+
+<div class="formtlo">Login</div>
+
+<div class="ub1">&#128273; Ingresar usuario</div>
+<input type="text"minlength="7" name="txtusuario"><!-- con esta validacion obligaremos al usuario aintroducir minimo 7 dijitos  -->
+
+<div class="ub1">&#128274; Ingresar password</div>
+<input type="password" minlength="8" name="txtpassword" id="txtpassword"><!-- con esta validacion obligaremos al usuario aintroducir minimo 8 dijitos  -->
+
+<div class="ub1">
+<input type="checkbox" onclick="verpassword()" >Mostrar contraseña
+ </div>
+<div class="ub1">Rol</div>
+<select name="rol">
+<option value="0" style="display:none;"><label>Seleccionar</label></option>
+<option value="Usuario">Usuario</option>
+<option value="Admin">Administrador</option>
+</select>
+
+<div align="center">
+<input type="submit" value="Ingresar">
+
+<input type="reset" value="Cancelar">
+</div>
+</form>
+</div>
+</body>
+<script>
+  function verpassword(){
+      var tipo = document.getElementById("txtpassword");
+      if(tipo.type == "password")
+	  {
+          tipo.type = "text";
+      }
+	  else
+	  {
+          tipo.type = "password";
+      }
+      
+  }
+
+  
+</script>
+</html>
+</body>
+</html>
